@@ -1,22 +1,83 @@
 aid: kwest
 name: Kwest
-description: Kwest is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kwest was a Berlin-based B2B SaaS platform for the operations behind renewable-energy
+  installations. Founded by Robin Dechant, Marco Holst and Constantin Ehren, it gave solar,
+  heat-pump and smart-meter installers a workflow platform covering project management,
+  inspection documentation, automated report creation and incident management, plus integrations
+  that synced installation data with the CRM, ERP and field-service tools those companies already
+  ran (Salesforce, HubSpot, Pipedrive, Dynamics 365, Odoo, Xentral, weclapp, Zoho, Aurora Solar,
+  Solytic, Praxedo, Zapier and others). Speedinvest invested in 2021. In 2024 Kwest was acquired
+  by Kraken Technologies, the technology arm of Octopus Energy Group, which folded the Kwest
+  workflow platform into the Kraken stack and opened its first development hub in Berlin around
+  the seven-person team. Kwest published no public API or developer program, and the company no
+  longer operates independently - its former getkwest.com domain has lapsed and now serves
+  unrelated third-party content, so it is recorded here as historical only and is not linked as a
+  live website.
 url: https://raw.githubusercontent.com/api-evangelist/kwest/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68cd2f88ff7e8ea4589bdcbd/68cd2f88ff7e8ea4589be936_Kwest%20Speedinvest%20Website%20Logo.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: Kraken Technologies (Octopus Energy Group)
+x-acquired-year: 2024
+x-headquarters: Berlin, Germany
+x-founders:
+- Robin Dechant
+- Marco Holst
+- Constantin Ehren
+x-former-website: https://getkwest.com/
+x-former-website-status: lapsed - domain no longer controlled by Kwest and now serves unrelated
+  third-party content; do not link as the company website
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Acquired
+- Climate Tech
+- Renewable Energy
+- Solar
+- Field Service Management
+- Project Management
+- Workflow Automation
+- Germany
+- SaaS
 apis: []
+common:
+- type: Lifecycle
+  name: Kwest company lifecycle
+  url: lifecycle/kwest-lifecycle.yml
+- type: LLMsTxt
+  name: Kwest llms.txt
+  url: llms/kwest-llms.txt
+- type: Press
+  name: Kwest has been acquired by Kraken Technologies (archived press release)
+  url: https://web.archive.org/web/2024/https://getkwest.com/blog/kraken-technologies-acquires-berlin-tech-disruptor-kwest/
+- type: InvestorProfile
+  name: Speedinvest portfolio profile
+  url: https://www.speedinvest.com/portfolio/kwest
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
