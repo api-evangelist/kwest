@@ -1,0 +1,36 @@
+# Kwest
+
+> Kwest was a Berlin-based B2B SaaS workflow platform for the operations behind renewable-energy
+> installations - solar, heat pumps and smart meters. It covered project management, inspection
+> documentation, automated report creation and incident management, and connected installers'
+> existing CRM/ERP/field-service tools. Speedinvest invested in 2021; Kraken Technologies (the
+> technology arm of Octopus Energy Group) acquired Kwest in 2024 and folded the platform into the
+> Kraken stack. Kwest never published a public API, developer portal or SDK. The company no
+> longer operates independently and its former getkwest.com domain has lapsed out of its control.
+
+## Status
+
+- Company status: acquired (Kraken Technologies / Octopus Energy Group, 2024)
+- Headquarters: Berlin, Germany
+- Founders: Robin Dechant, Marco Holst, Constantin Ehren
+- Public API: none published
+- Former website getkwest.com: lapsed; now serves unrelated third-party content - do not link it
+
+## APIs
+
+None. Kwest published no public API, OpenAPI definition, SDK, or developer documentation.
+
+## Artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/kwest/refs/heads/main/apis.yml): API Evangelist catalog entry for Kwest
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/kwest/refs/heads/main/lifecycle/kwest-lifecycle.yml): company lifecycle, acquisition, and archived-surface record
+
+## References
+
+- [Speedinvest portfolio profile](https://www.speedinvest.com/portfolio/kwest)
+- [Kwest has been acquired by Kraken Technologies (archived press release)](https://web.archive.org/web/2024/https://getkwest.com/blog/kraken-technologies-acquires-berlin-tech-disruptor-kwest/)
+
+---
+generated: 2026-07-19
+method: generated
+source: apis.yml + lifecycle/kwest-lifecycle.yml

@@ -1,0 +1,59 @@
+generated: '2026-07-19'
+method: searched
+source: https://web.archive.org/web/2024/https://getkwest.com/blog/kraken-technologies-acquires-berlin-tech-disruptor-kwest/
+scope: company
+summary: Kwest operated independently from its founding in Berlin until its 2024 acquisition by
+  Kraken Technologies, the technology arm of Octopus Energy Group. The product was absorbed into
+  the Kraken stack, the company website was retired, and the getkwest.com domain has since lapsed
+  out of Kwest's control. Kwest never published a public API, developer portal, SDK or
+  documentation surface, so no API artifacts are derivable for this provider.
+company_status: acquired
+acquisition:
+  acquirer: Kraken Technologies
+  acquirer_parent: Octopus Energy Group
+  year: 2024
+  outcome: Kwest workflow platform integrated into the Kraken stack; Kraken opened its first
+    development hub in Berlin around the seven-person Kwest team.
+  announcement: https://web.archive.org/web/2024/https://getkwest.com/blog/kraken-technologies-acquires-berlin-tech-disruptor-kwest/
+investment:
+  investor: Speedinvest
+  year_invested: 2021
+  profile: https://www.speedinvest.com/portfolio/kwest
+api_surface:
+  public_api: false
+  developer_portal: false
+  openapi: false
+  sdks: false
+  notes: No API, developer, or documentation paths were found in the archived crawl of
+    getkwest.com (400 archived URLs reviewed). The only integration surface was a marketing
+    integrations directory of prebuilt connectors, not a developer API.
+web_presence:
+  former_website: https://getkwest.com/
+  status: lapsed
+  probed: '2026-07-19'
+  evidence:
+  - Live HTTPS request to getkwest.com completes a TLS handshake behind Cloudflare but returns no
+    HTTP response (curl exit, http=000).
+  - Archived snapshot 2026-03-05 of getkwest.com serves unrelated third-party content, confirming
+    the domain is no longer controlled by Kwest.
+  warning: Do not link getkwest.com as the company website; the domain now serves unrelated
+    third-party content.
+archived_surfaces:
+- path: /
+  status: archived-only
+  note: Product/platform marketing site (WordPress).
+- path: /integrations/
+  status: archived-only
+  note: Prebuilt connector directory - Salesforce, HubSpot, Pipedrive, Dynamics 365, Odoo,
+    Xentral, weclapp, Zoho, Aurora Solar, Solytic, Praxedo, FastField, Pylon, monday, Office 365,
+    Google Sheets, Zapier.
+- path: /product-updates/
+  status: archived-only
+  note: Dated product-update posts. Not wired as a ChangeLog pointer - the live page no longer
+    exists.
+- path: /blog/
+  status: archived-only
+- path: /privacy-policy/
+  status: archived-only
+- path: /terms-of-service/
+  status: archived-only
