@@ -43,7 +43,7 @@ x-founders:
 x-former-website: https://getkwest.com/
 x-former-website-status: lapsed - domain no longer controlled by Kwest and now serves unrelated
   third-party content; do not link as the company website
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
