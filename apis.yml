@@ -84,6 +84,11 @@ tags_raw:
 - SaaS
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/kraken-technologies/
+  name: Kraken Technologies
+  x-relationship: acquired
+  x-evidence: "In 2024 Kwest was acquired by Kraken Technologies, the technology arm of Octopus Energy Group, which folded the Kwest workflow platform into the Kraken stack and opened its first development hub in Berlin around the seven-person team."
 - type: Lifecycle
   name: Kwest company lifecycle
   url: lifecycle/kwest-lifecycle.yml
