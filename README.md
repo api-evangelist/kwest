@@ -64,19 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kwest was a Berlin-based B2B SaaS workflow platform for the operations behind renewable-energy
-installations — solar, heat pumps and smart meters. Founded by Robin Dechant, Marco Holst and
-Constantin Ehren, it covered project management, inspection documentation, automated report
-creation and incident management, and connected installers' existing CRM, ERP and field-service
-tools through a directory of prebuilt integrations.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: acquired.** Speedinvest invested in 2021. In 2024 Kraken Technologies — the technology
-arm of Octopus Energy Group — acquired Kwest, folded the workflow platform into the Kraken stack,
-and opened its first development hub in Berlin around the seven-person team.
+Kwest was a Berlin-based B2B SaaS platform for the operations behind renewable-energy installations. Founded by Robin Dechant, Marco Holst and Constantin Ehren, it gave solar, heat-pump and smart-meter installers a workflow platform covering project management, inspection documentation, automated report creation and incident management, plus integrations that synced installation data with the CRM, ERP and field-service tools those companies already ran (Salesforce, HubSpot, Pipedrive, Dynamics 365, Odoo, Xentral, weclapp, Zoho, Aurora Solar, Solytic, Praxedo, Zapier and others). Speedinvest invested in 2021. In 2024 Kwest was acquired by Kraken Technologies, the technology arm of Octopus Energy Group, which folded the Kwest workflow platform into the Kraken stack and opened its first development hub in Berlin around the seven-person team. Kwest published no public API or developer program, and the company no longer operates independently - its former getkwest.com domain has lapsed and now serves unrelated third-party content, so it is recorded here as historical only and is not linked as a live website.
 
-**No API surface.** Kwest never published a public API, developer portal, OpenAPI definition or
-SDK, so no API artifacts are derivable for this provider. The former `getkwest.com` domain has
-lapsed and now serves unrelated third-party content — it is recorded as historical only and is
-deliberately not linked as a live website.
+**Areas:** Company · Acquired · Climate Tech · Renewable Energy · Solar · Field Service · Project Management · Workflow Automation · Germany · Software-as-a-Service
 
-Backed by: speedinvest
+## Kwest on APIs.io (historical record)
+
+Everything profiled for Kwest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kwest/](https://apis.io/providers/kwest/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kwest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kwest/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
